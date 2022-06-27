@@ -1,0 +1,81 @@
+{
+   "active": [
+      {
+         "username": "snapwiz",
+         "path": "\/home\/{{userName}}\/project\/application\/server\/controllers\/articles.controller.js",
+         "focused": true
+      },
+      {
+         "username": "snapwiz",
+         "path": "\/home\/{{userName}}\/project\/application\/client\/src\/components/Editor.js",
+         "focused": false
+      }
+   ],
+   "projects": [
+      {
+         "name": "ContactApp",
+         "path": "\/home\/{{userName}}\/project\/application",
+         "container_id": "testContainerId",
+         "collaboration": false,
+         "source": "{{xtermUrl}}",
+         "build": false,
+         "browser": true,
+         "browser_url": "{{browserUrl}}/",
+         "browser_in_new_tab": true,
+         "browser_button_name": "LAUNCH APP",
+         "readOnlyFolders": [
+            "\/home\/{{userName}}\/project\/application\/test",
+            "\/home\/{{userName}}\/project\/application\/server\/auth",
+            "\/home\/{{userName}}\/project\/application\/server\/config",
+            "\/home\/{{userName}}\/project\/application\/server\/controllers\/auth.controller.js",
+            "\/home\/{{userName}}\/project\/application\/server\/controllers\/profiles.controller.js",
+            "\/home\/{{userName}}\/project\/application\/server\/controllers\/tags.controller.js",
+            "\/home\/{{userName}}\/project\/application\/server\/controllers\/user.controller.js",
+            "\/home\/{{userName}}\/project\/application\/server\/model",
+            "\/home\/{{userName}}\/project\/application\/server\/public",
+            "\/home\/{{userName}}\/project\/application\/server\/routes",
+            "\/home\/{{userName}}\/project\/application\/server\/utils",
+            "\/home\/{{userName}}\/project\/application\/server\/views",
+            "\/home\/{{userName}}\/project\/application\/server\/app.js",
+            "\/home\/{{userName}}\/project\/application\/client\/build",
+            "\/home\/{{userName}}\/project\/application\/client\/config",
+            "\/home\/{{userName}}\/project\/application\/client\/public",
+            "\/home\/{{userName}}\/project\/application\/client\/scripts",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/reducers",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/store",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/util",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/index.jsx",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/components\/Article",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/components\/Home",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/components\/App.js",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/components\/ArticleList.js",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/components\/ArticlePreview.js",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/components\/Header.js",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/components\/ListErrors.js",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/components\/ListPagination.js",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/components\/Login.js",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/components\/Profile.js",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/components\/ProfileFavorites.js",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/components\/Register.js",
+            "\/home\/{{userName}}\/project\/application\/client\/src\/components\/Settings.js"
+         ],
+         "hiddenFolders": [
+            "\/home\/{{userName}}\/project\/application\/node_modules",
+            "\/home\/{{userName}}\/project\/application\/server\/node_modules",
+            "\/home\/{{userName}}\/project\/application\/client\/node_modules",
+            "\/home\/{{userName}}\/project\/application\/test",
+            "\/home\/{{userName}}\/project\/application\/client\/build",
+            "\/home\/{{userName}}\/project\/application\/client\/config"
+         ],
+         "hiddenFiles": [
+            "\/home\/{{userName}}\/project\/application\/server\/package.json",
+            "\/home\/{{userName}}\/project\/application\/server\/package-lock.json",
+            "\/home\/{{userName}}\/project\/application\/client\/package.json",
+            "\/home\/{{userName}}\/project\/application\/client\/package-lock.json",
+            "\/home\/{{userName}}\/project\/application\/client\/constants.js",
+            "\/home\/{{userName}}\/project\/application\/server\/.babelrc",
+            "\/home\/{{userName}}\/project\/application\/server\/app.js"
+         ]
+      }
+   ]
+}

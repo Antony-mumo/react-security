@@ -1,0 +1,39 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "socblog server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app_hooked.js",
+    "startmon": "nodemon app_hooked.js",
+    "preversion": "npm test",
+    "postversion": "git push origin HEAD && git push origin $(git describe --tags) && npm publish"
+  },
+  "repository": {},
+  "keywords": [
+    "express",
+    "server",
+    "socblog",
+    "app"
+  ],
+  "author": "Pavel Perov",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015-node6": "^0.4.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "ejs": "2.6.1",
+    "express": "^4.16.3",
+    "express-http-proxy": "1.2.0",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.11",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.8.2",
+    "slug": "^1.1.0",
+    "source-map-support": "^0.4.16"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "imageName": "nodemongo",
+    "ui": "webide",
+    "ports": [
+        3000
+    ],
+    "filediff": {},
+    "mounts": [
+        {
+            "source": "node_modules_blog_client",
+            "target": "client/node_modules:ro"
+        },
+        {
+            "source": "node_modules_blog_server",
+            "target": "server/node_modules:ro"
+        },
+        {
+            "source": "node_modules_article_react_test",
+            "target": "test/node_modules:ro"
+        }
+    ]
+}

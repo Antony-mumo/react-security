@@ -1,0 +1,42 @@
+import { Link } from "react-router-dom";
+import React from "react";
+import agent from "../../utils/agent";
+import { connect } from "react-redux";
+import { DELETE_ARTICLE } from "../../utils/actionTypes";
+import { withBasename } from "../../utils/params";
+
+const mapDispatchToProps = dispatch => ({
+  onClickDelete: payload => dispatch({ type: DELETE_ARTICLE, payload })
+});
+
+const ArticleActions = props => {
+  const article = props.article;
+  const del = () => {
+    props.onClickDelete(agent.Articles.del(article.slug));
+  };
+  if (props.canModify) {
+    return (
+      <span>
+        <Link
+          to={withBasename(`/editor/${article.slug}`)}
+          className="btn btn-outline-secondary btn-sm"
+          id="edit_article"
+        >
+          <i className="ion-edit"></i> Edit Article
+        </Link>
+
+        <button
+          className="btn btn-outline-danger btn-sm"
+          id="delete_article"
+          onClick={del}
+        >
+          <i className="ion-trash-a"></i> Delete Article
+        </button>
+      </span>
+    );
+  }
+
+  return <span></span>;
+};
+
+export default connect(() => ({}), mapDispatchToProps)(ArticleActions);
