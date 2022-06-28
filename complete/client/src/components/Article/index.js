@@ -39,7 +39,8 @@ class Article extends React.Component {
     }
 
     const markup = {
-      __html: marked(this.props.article.body, { sanitize: true })
+      // __html: marked(this.props.article.body, { sanitize: true })
+      __html: this.props.article.body
     };
     const canModify =
       this.props.currentUser &&
